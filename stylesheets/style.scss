@@ -1,0 +1,94 @@
+//$variable tags
+
+// start css compile code
+
+//@Mixins and such
+
+
+//RESETS
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#complete{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    float: left;
+    width:100%;
+    height:1300px;
+}
+
+//Head Nav Controls
+
+nav{
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 14px;
+    height: 58px;
+    width: 100%;
+    background-color: brown;
+}
+nav ul{
+    display: inline-block;
+}
+nav li{
+    text-align: center;
+    display: inline-block;
+    border: 1px white dotted;
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+}
+// done Head nav
+//Body Tags
+#content{
+    float: left;
+    text-align: center;
+    margin: 30px 9%;
+    border: orange solid 2px;
+    width:80%;
+    height: 900px;
+    background-color: white;
+    color: black;
+}
+
+header{
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    padding:0;
+    height: 30px;
+}
+h3{
+    margin: 0;
+    padding:0;
+    height: 30px;
+}
+#blackspace{
+    height:20px;
+    width: 100%;
+    background-color: brown;
+}
+#other{
+    width: 60%;
+    height: 400px;
+}
+#incontent{
+    width: 60%;
+}
+//Footer Tags
+footer{
+    float: left;
+    text-align: center;
+    height: 100px;
+    width:100%;
+    border: 2px solid white;
+    height: 20px;
+}
